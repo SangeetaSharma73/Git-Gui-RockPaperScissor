@@ -49,7 +49,7 @@ app = tk.Tk()
 app.title("Rock, Paper, Scissors Game")
 app.configure(bg="lightblue")
 app.geometry('400x400')
-
+app.resizable(False,False)
 user_label = tk.Label(app, text='User: ', font=('Arial', 12, 'bold'), fg='black', bg='pink').place(x=50, y=100)
 user_choose = tk.Label(app, text="", font=('Arial', 12, 'bold'), fg='black', bg='pink')
 user_choose.place(x=150, y=100)
